@@ -1,0 +1,218 @@
+body{
+    background-color:#f2f9fa;
+    font-size: 14px;
+    padding-top: 80px;
+    margin: 0px;
+    font-family: 'Heebo', sans-serif;
+    }
+
+    .section-p1{
+        padding: 40px 80px;
+    }
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+    padding: 0 16px;
+    color: #ddd;
+    font-size: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #0a7486;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+header .logo img {
+    height: 70px;
+    width: 70px;
+}
+header input[type="text" i] {
+    padding: 1px 2px;
+}
+
+header nav {
+    display: inline-block;
+    
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #ece5e5;
+    font-size: 15px;
+    letter-spacing: 0.37px;
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #13dd7f;
+}
+
+header nav ul li:last-of-type a {
+    margin-right: 0;
+}
+
+  
+/*Books section end*/
+
+/*fOOTER START*/
+footer .bottom-nav {
+    padding: 60px 0;
+    background-color: #0a7486;
+   
+}
+
+footer .bottom-nav .container {
+    max-width: 955px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .bottom-nav ul {
+    list-style: none;
+    display: flex;
+  flex-direction: column;
+}
+
+footer .bottom-nav ul li a {
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #e0e0e0;
+    text-decoration: none;
+    display: block;
+}
+
+footer .bottom-nav ul li a:hover {
+    color: #13dd7f;
+}
+
+
+footer .bottom-nav ul .list-title {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+footer .copyright-text {
+    color: white;
+    background-color: #0a7486;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+}
+/*fOOTER END*/
+
+
+/*book add section start*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+background-color:#29a3b3;
+font-size: 14px;
+}
+.contact{
+    width :90%;
+    margin: 20px auto;
+
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+
+}
+.contactboxleft{
+    flex-basis: 40%;
+    padding:40px 60px;
+    background: #c0e3e9;
+}
+.contactboxright{
+    flex-basis: 60%;
+    padding:40px;
+    background: #29a3b3;
+    color: white;
+}
+h1{
+    margin-bottom: 10px;
+}
+.contact p{
+    margin-bottom: 20px;
+}
+.input-row{
+    
+    margin-bottom: 20px;
+}
+input{
+    margin-top: 15px;
+     width: 80%;
+     height: 30px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    padding-bottom: 5px;
+    background: #29a3b3;
+    font-size: 20px;
+}
+#coverpage input{
+    background: none;
+    border: none;
+    
+}
+
+label{
+    
+    display: block;
+    font-size: 15PX;
+    font-weight: 600;
+
+}
+#button1{
+    justify-content: space-between;
+}
+button{
+    background: #29a3b3;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid black;
+    outline: none;
+    color: white;
+    margin-top: 10px;
+  
+}
+
+
+/*book add section end*/
